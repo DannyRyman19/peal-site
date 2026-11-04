@@ -1,0 +1,19 @@
+:root { --night:#0B1526; --dusk:#17294A; --panel:#1A2C4E; --ink:#F3EAD8; --soft:#A9B4C9; --bronze:#D69A4B; }
+* { box-sizing: border-box; }
+body { margin:0; background: linear-gradient(var(--night), var(--dusk)) fixed; color: var(--ink);
+  font: 17px/1.55 -apple-system, "SF Pro Rounded", system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 22px 80px; }
+header { display:flex; align-items:center; gap:14px; margin-bottom: 28px; }
+header img { width:56px; height:56px; border-radius: 13px; }
+header a { color: var(--ink); text-decoration:none; font: 700 30px/1 "New York", Georgia, serif; }
+nav { margin-left:auto; display:flex; gap:16px; }
+nav a { font: 600 15px/1 -apple-system, system-ui, sans-serif; color: var(--soft); }
+h1, h2 { font-family: "New York", Georgia, serif; }
+h1 { font-size: 34px; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 30px 0 6px; }
+p, li { color: var(--soft); }
+a { color: var(--bronze); }
+.rule { height:6px; width:110px; border-radius:3px; margin: 10px 0 24px;
+  background: repeating-linear-gradient(60deg, #EBC17A 0 6px, #D69A4B 6px 12px); }
+.card { background: rgba(26,44,78,.7); border: 1px solid rgba(255,255,255,.1); border-radius: 18px; padding: 18px 20px; margin: 18px 0; }
+.small { font-size: 14px; }
